@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: utils
+Implementation-Version: property(class java.lang.String, map(provider(?)
+ ))
+
