@@ -1,6 +1,6 @@
-package org.example.controller;
+package com.epam.controller;
 
-import org.example.service.Utils;
+import com.epam.service.Utils;
 
 public class App {
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
 plugins {
-//    id 'java-library'
-    id 'java'
-    id 'maven'
+    id 'java-library'
     id 'maven-publish'
 }
 
@@ -13,7 +11,7 @@ publishing {
         maven(MavenPublication) {
             groupId = getGroup()
             artifactId = rootProject.name
-//            version = getVersion()
+            version = getVersion()
             from components.java
         }
     }
@@ -26,9 +24,6 @@ jar {
     manifest {
         attributes("Implementation-Title": "utils",
                 "Implementation-Version": archiveVersion)
-    }
-    from {
-        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
 

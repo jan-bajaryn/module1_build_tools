@@ -1,4 +1,4 @@
-package org.example.service;
+package com.epam.service;
 
 
 import com.epam.utils.StringUtils;
@@ -16,10 +16,11 @@ public class Utils {
     }
 
     private boolean helper(String[] str) {
-        boolean result = true;
         for (String s : str) {
-            result = result && stringUtils.isPositiveNumber(s);
+            if (!stringUtils.isPositiveNumber(s)) {
+                return false;
+            }
         }
-        return result;
+        return true;
     }
 }

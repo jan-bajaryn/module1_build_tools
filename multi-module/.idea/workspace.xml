@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ec93a65-3d6a-460e-93c8-87a82d3ad2d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../utils/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../utils/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../utils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/classes/java/main/com/example/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/classes/java/test/com/example/utils/StringUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/libs/utils-1.3.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/build/libs/utils-1.3.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/publications/maven/pom-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/build/publications/maven/pom-default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/reports/tests/test/classes/com.example.utils.StringUtilsTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/reports/tests/test/packages/com.example.utils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/test-results/test/TEST-com.example.utils.StringUtilsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/build/tmp/jar/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +144,20 @@
       <command value="gradle api:build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.multi-module [api:build]">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.controller.App" />
+      <module name="multi-module.api.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.controller.App" />
       <module name="multi-module.api.main" />
@@ -155,25 +186,6 @@
           </list>
         </option>
         <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="multi-module:api [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/api" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="buildDependents" />
-          </list>
-        </option>
-        <option name="vmOptions" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
@@ -218,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Gradle.multi-module [api:build]" />
         <item itemvalue="Gradle.multi-module:core [build]" />
         <item itemvalue="Gradle.multi-module:api [build]" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.multi-module:api [buildDependents]" />
       </list>
     </recent_temporary>
   </component>
@@ -247,37 +259,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603440685935">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603442275662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603440685935" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603440685935">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603442275662" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603442275662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603440685935" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603440685935">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603442275662" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603442275662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603440685935" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603440685935">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603442275662" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603442275662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603440685935" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603442275662" />
     <state x="499" y="175" key="extract.method.dialog" timestamp="1603305843583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="175" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1603305843583" />
-    <state x="470" y="168" width="596" height="488" key="find.popup" timestamp="1603309093725">
+    <state x="470" y="168" width="598" height="488" key="find.popup" timestamp="1603442252899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="168" width="596" height="488" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603309093725" />
+    <state x="470" y="168" width="598" height="488" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603442252899" />
     <state x="387" y="30" key="new project wizard" timestamp="1603302841765">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="387" y="30" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1603302841765" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1603440685473">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1603442265808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603440685473" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603442265808" />
   </component>
 </project>
