@@ -1,7 +1,7 @@
 package org.example.service;
 
 
-import com.example.utils.StringUtils;
+import com.epam.utils.StringUtils;
 
 public class Utils {
     private StringUtils stringUtils = new StringUtils();

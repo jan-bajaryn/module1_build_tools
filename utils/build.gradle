@@ -1,5 +1,7 @@
 plugins {
+//    id 'java-library'
     id 'java'
+    id 'maven'
     id 'maven-publish'
 }
 
@@ -11,7 +13,7 @@ publishing {
         maven(MavenPublication) {
             groupId = getGroup()
             artifactId = rootProject.name
-            version = getVersion()
+//            version = getVersion()
             from components.java
         }
     }
