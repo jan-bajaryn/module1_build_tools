@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.utils.StringUtilsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-23T07:57:26" hostname="DESKTOP-MUURNCQ" time="0.019">
+<testsuite name="com.example.utils.StringUtilsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-23T08:00:25" hostname="DESKTOP-MUURNCQ" time="0.005">
   <properties/>
-  <testcase name="testEmptyFalse()" classname="com.example.utils.StringUtilsTest" time="0.013"/>
+  <testcase name="testEmptyFalse()" classname="com.example.utils.StringUtilsTest" time="0.0"/>
   <testcase name="testPositiveNumberTrue()" classname="com.example.utils.StringUtilsTest" time="0.001"/>
-  <testcase name="testWrongValueFalse()" classname="com.example.utils.StringUtilsTest" time="0.001"/>
-  <testcase name="testNegativeNumberFalse()" classname="com.example.utils.StringUtilsTest" time="0.001"/>
-  <testcase name="testNullFalse()" classname="com.example.utils.StringUtilsTest" time="0.001"/>
+  <testcase name="testWrongValueFalse()" classname="com.example.utils.StringUtilsTest" time="0.0"/>
+  <testcase name="testNegativeNumberFalse()" classname="com.example.utils.StringUtilsTest" time="0.0"/>
+  <testcase name="testNullFalse()" classname="com.example.utils.StringUtilsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
