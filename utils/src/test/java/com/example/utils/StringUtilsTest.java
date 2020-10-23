@@ -2,19 +2,21 @@ package com.example.utils;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class StringUtilsTest {
 
-    StringUtils stringUtils = new StringUtils();
+    private StringUtils stringUtils = new StringUtils();
 
     @Test
-    void isPositiveNumber() {
+    void testPositiveNumberTrue() {
         assertTrue(stringUtils.isPositiveNumber("23"));
+    }
+
+    @Test
+    public void testNegativeNumberFalse() {
         assertFalse(stringUtils.isPositiveNumber("-2374"));
     }
-    @Test
-    public void negative() {
-        assertThrows(NumberFormatException.class,()->stringUtils.isPositiveNumber("dlkfjglkdfjg345"));
-    }
+
 }
