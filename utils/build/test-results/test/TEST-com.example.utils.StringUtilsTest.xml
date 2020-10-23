@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.utils.StringUtilsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-21T18:41:17" hostname="DESKTOP-MUURNCQ" time="0.013">
+<testsuite name="com.example.utils.StringUtilsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-23T07:38:48" hostname="DESKTOP-MUURNCQ" time="0.013">
   <properties/>
   <testcase name="isPositiveNumber()" classname="com.example.utils.StringUtilsTest" time="0.01"/>
   <testcase name="negative()" classname="com.example.utils.StringUtilsTest" time="0.002"/>
