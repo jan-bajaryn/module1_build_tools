@@ -19,4 +19,18 @@ class StringUtilsTest {
         assertFalse(stringUtils.isPositiveNumber("-2374"));
     }
 
+    @Test
+    public void testNullFalse() {
+        assertFalse(stringUtils.isPositiveNumber(null));
+    }
+
+    @Test
+    public void testEmptyFalse() {
+        assertFalse(stringUtils.isPositiveNumber(""));
+    }
+
+    @Test
+    public void testWrongValueFalse() {
+        assertFalse(stringUtils.isPositiveNumber("dflgkdjfglj"));
+    }
 }
